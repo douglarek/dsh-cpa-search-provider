@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "CPA 搜索提供方",
+    "description": "通过 OpenAI 兼容的 Responses 接口搜索和抓取网页。普通页面直接抓取；JavaScript 或登录墙页面回退到模型代读。endpoint 和 API key 请在私有 profile patch 中配置。"
+  }
+}

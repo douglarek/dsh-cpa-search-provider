@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "CPA search provider",
+    "description": "Searches and fetches web content through an OpenAI-compatible Responses endpoint. Static pages are fetched directly; JavaScript or login-walled pages fall back to model-mediated reading. Configure the endpoint and API key in your private profile patch."
+  }
+}

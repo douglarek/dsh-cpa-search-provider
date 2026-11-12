@@ -1,0 +1,17 @@
+# CPA Responses search + fetch provider for DSH.
+#
+# This bundle registers the providers only. No endpoint or credential is
+# bundled: set `endpoint` and `apiKey` in your private profile patch (or a
+# local override), then select `cpa-search` / `cpa-fetch` in the Web search
+# and fetch settings. The provider reports unavailable until both are set.
+- insert:
+    - id: web-search-cpa
+      name: dsh-cpa-search-provider
+      config:
+        model: gpt-6-luna
+        reasoningEffort: low
+        searchProviderId: cpa-search
+        fetchProviderId: cpa-fetch
+        searchTimeoutMs: 60000
+        fetchTimeoutMs: 30000
+        readFallback: true
