@@ -1,5 +1,5 @@
 /**
- * dsh-cpa-search-provider
+ * @douglarek/dsh-cpa-search-provider
  *
  * A dependency-free DSH web provider that replaces vendor search backends
  * with the CPA OpenAI-compatible Responses API:
@@ -496,7 +496,7 @@ export class CpaFetchProvider {
   }
 }
 
-export const name = "dsh-cpa-search-provider";
+export const name = "@douglarek/dsh-cpa-search-provider";
 export const inject = ["web"];
 
 export function apply(ctx, input) {

@@ -1,6 +1,6 @@
 {
-  "name": "dsh-cpa-search-provider",
-  "version": "0.2.0",
+  "name": "@douglarek/dsh-cpa-search-provider",
+  "version": "0.3.0",
   "description": "CPA Responses web search and fetch provider for DeepSeek Harness, with zero runtime dependencies",
   "type": "module",
   "license": "MIT",

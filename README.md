@@ -1,4 +1,4 @@
-# dsh-cpa-search-provider
+# @douglarek/dsh-cpa-search-provider
 
 A CPA Responses web search and fetch provider for DeepSeek Harness.
 
@@ -34,7 +34,7 @@ Add this to your private `cordis.patch.yml` (replace the placeholders locally; d
 
 ```yaml
 - id: web-search-cpa
-  name: dsh-cpa-search-provider
+  name: "@douglarek/dsh-cpa-search-provider"
   config:
     endpoint: https://your-endpoint.example/v1
     model: your-responses-model

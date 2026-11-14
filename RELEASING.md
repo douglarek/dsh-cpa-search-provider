@@ -18,7 +18,7 @@ Every version bump must update the index.
    ```
 
 4. In `dsh-plugin-index/index.json`, add a version entry under
-   `plugins[name="dsh-cpa-search-provider"].versions`:
+   `plugins[name="@douglarek/dsh-cpa-search-provider"].versions`:
 
    ```json
    {

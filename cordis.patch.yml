@@ -6,7 +6,7 @@
 # and fetch settings. The provider reports unavailable until both are set.
 - insert:
     - id: web-search-cpa
-      name: dsh-cpa-search-provider
+      name: "@douglarek/dsh-cpa-search-provider"
       config:
         model: gpt-6-luna
         reasoningEffort: low
