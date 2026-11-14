@@ -16,6 +16,18 @@ github:douglarek/dsh-cpa-search-provider
 
 After installation, configure `endpoint` and `apiKey` in your private profile patch (see below), then select `cpa-search` and `cpa-fetch` in **Plugins → Built-in plugin settings → Web search and fetch**, or pin them with a `web` override.
 
+## Plugin index
+
+This plugin is listed in [dsh-plugin-index](https://github.com/douglarek/dsh-plugin-index).
+
+Index URL:
+
+```text
+https://raw.githubusercontent.com/douglarek/dsh-plugin-index/main/index.json
+```
+
+Every `package.json` version bump must add the matching version and release commit to the index. The `Plugin index` GitHub Actions check fails a version-changing push until the index lists that exact version at that commit. See [RELEASING.md](RELEASING.md).
+
 ## Configuration
 
 Add this to your private `cordis.patch.yml` (replace the placeholders locally; do not commit the real values to a public repository):
